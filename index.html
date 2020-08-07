@@ -1,0 +1,243 @@
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+<style>
+	
+	body {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+// etc
+
+header {
+  background: lightpink;
+  padding: 2rem;
+}
+
+main {
+  background: sienna;
+}
+
+footer {
+  background: wheat;
+  padding: 1rem;
+  text-align: center;
+  margin:0px;
+}
+
+	.parallax{
+        	background-image: url("https://cdn.pixabay.com/photo/2014/08/26/21/29/by-wlodek-428549__340.jpg");
+
+  height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  			.parallax2{
+        	background-image: url("https://cdn.pixabay.com/photo/2015/08/29/20/21/safe-913452__340.jpg");
+
+  height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  			.parallax3{
+        	background-image: url("https://cdn.pixabay.com/photo/2020/03/02/16/19/vintage-4896141__340.jpg");
+
+  height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  			.parallax4{
+        	background-image: url("https://cdn.pixabay.com/photo/2020/03/04/05/57/key-4900643__340.jpg");
+
+  height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  			.parallax5{
+            background-image: url("https://cdn.pixabay.com/photo/2016/02/19/11/53/book-1210030_960_720.jpg");
+            
+  height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+			
+			h1 {color: Yellow;background-color:slategrey;text-align: center;font-family: "Abril Fatface",cursive;border-style:outset;border-width:15px;font-size:50;margin: 0px}
+
+            
+            h3{font-family: abril;font-size: 40px;color:black;text-align:center;background-color:olive;padding: 25px 10px;margin:0px}
+           
+           p {color:white;font-size:25px;text-align:center;background-color:rgba(109,164,133,0.5)}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+		.topnav {
+  background-color: sienna;
+  overflow: hidden;
+}
+
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: sienna;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+button{
+	float: left;
+    display: block;
+    color: #f2f2f2;
+    background-color:sienna;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-style:none
+}
+.head{
+    	background-color:darkolivegreen;
+        margin:0 auto;
+        margin-bottom:275px;
+        text-align:center;
+        color:white;
+        border-style:none;
+        font-family: 'Mulish', sans-serif;
+}
+	.words{
+    	background-color:rgb(96,138,69);
+        margin:0 auto;
+        font-family: 'Mulish', sans-serif;
+        font-size:25px;
+}
+	#ark{
+    	background-image: url("https://cdn.pixabay.com/photo/2018/07/19/07/03/jesus-3548007__340.jpg");
+        background-repeat:no-repeat;
+		background-size:cover;
+}
+	#net{
+    	background-image: url("https://cdn.pixabay.com/photo/2018/08/09/23/07/fishing-net-3595757__340.jpg");
+        background-repeat:no-repeat;
+		background-size:cover;
+}
+	#bones{
+    	background-image:
+url("https://cdn.pixabay.com/photo/2015/12/19/12/55/cartoon-1099728__340.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+}
+	#jericho{
+    	background-image:url("https://cdn.pixabay.com/photo/2014/08/30/08/23/binoculars-431488__340.jpg");
+        background-repeat:no-repeat;
+		background-size:cover;
+}
+	#mission{
+    	font-size:20px;
+}
+	h4{
+    	background-color:darkolivegreen;
+        color:white;
+        margin:0px;
+        font-family: 'Oswald', sans-serif;
+        font-size:30px
+}        
+	h6{
+    	background-color:sienna;
+        color:black;
+        margin:0px;
+        font-family: 'Oswald', sans-serif;
+        font-size:25px
+}
+	#logo{
+    	display:block;
+    	margin:20px auto;
+}
+	#news{
+    	background-color:darkolivegreen;
+        color:white;
+        margin:0px;
+        text-align:center;
+        font-size:35px
+}
+	.subnews{
+    	background-color:rgba(60, 194, 134,0.8);
+        color:black;
+        border:2px solid black;
+        margin:0px;
+        font-size:25px
+}
+
+</style>
+<script>
+function about(){
+	document.getElementById("main").innerHTML=
+    	"<div class='parallax'><h3>What do we do?</h3><p>We create biblical escape room themed boxes to let your special group have a fun night of puzzle solving from the safety of your own home. These boxes are perfect for families, friends, and youth groups. The only price we charge for these boxes is a donation. Most of the donations go to Bethesda Mission.</p>  </div><div class='parallax5'><h3>What is <a href='https://www.bethesdamission.org/' target='_blank'>Bethesda Mission</a>?</h3><p id='mission'>Bethesda is a homeless shelter and outreach ministry in Harrisburg. Their mission is to provide the poor and homeless of the city with shelter, food, clothes, and most importantly, and share the good news and love of Jesus Christ. As a Christian organization, they get no funding from the government. All their money comes from people like you who open their hearts to help these men and women renew their lives and walk in the light of God.</p></div><div class='parallax2'><h3>What is an escape room box?</h3><p>An escape room box is a box of puzzles and riddles all directed towards an end goal, typically unlocking a box.</p></div><div class='parallax4'><h3>What can I expect in my box?</h3><p>Each box contains a locked treasure chest,clues and riddles to assist you in figuring out how to unlock the box, as well as a few goodies and distractions.</p></div><div class='parallax3'><h3>Who is EScape?</h3><p>EScape is a group of teenagers seeking to make the world a better place. Cousins Emily Kerstetter and Shirley Symmerman(forming the capitals ES)have been doing charity work since fourth grade and helping Bethesda since fifth. In the past they've collected books, held item drives, hosted a bake sale, and created escape rooms. Together, the group hopes to raise money for the mission while spreading the love of God.</p></div>"
+}
+function boxes(){
+	document.getElementById("main").innerHTML=
+    	"<div id='ark'><h1 class='head'>EScape...Noah's Ark</h1><h3 class='words'>Perfect for the family, EScape Noah's Ark is based on the story of Noah and the flood. This puzzle takes you through the story of the residents on the ark and how their lives changed the world.</h3></div><div id='net'><h1 class='head'>EScape...An Empty Net</h1><h3 class='words'>This box will take you on a stroll through the paths that the famous sons of Zebedee and other fisherman may have followed.</h3></div><div id='bones'><h1 class='head'>EScape...The Rattling Bones</h1><h3 class='words'>A favorite for children, EScape The Rattling Bones goes through bizaar facts about human anatomy as well as some of the most well known biblical references to them.</h3></div><div id='jericho'><h1 class='head'>EScape...The Battle of Jericho</h1><h3 class='words'>Have you ever wanted to be a spy? Well, here's your chance. EScape The Battle of Jericho shows you how the spies lived while trying to gain information on Jericho and report back to Jericho.</h3></div>"
+}
+
+function contact(){
+	document.getElementById("main").innerHTML=
+    	"<h4>Email:</h4><h6>boxesescape@gmail.com</h6></h4><h4>Instagram:<h6>escape_boxes</h6></h4><h4>Facebook:<h6>EScapeBoxes2020</h6></h4>"
+}
+
+function home(){
+	document.getElementById("main").innerHTML=
+    	"<img id='logo' src='https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/111323718_118902586571977_4656653492373695672_n.jpg?_nc_cat=110&amp;_nc_sid=6e5ad9&amp;_nc_ohc=s14aWMM-_vIAX9nfmmQ&amp;_nc_ht=scontent-lga3-1.xx&amp;oh=d44a23f5e3baaddd66a14729af8f5080&amp;oe=5F52B09C' height='300px'><div><h3 id='news'>News</h3><h5 class='subnews'>There will be an opportunity to pick up your EScape box at Church of the Open Door(3191 Middle Rd, Richfield, PA 17086) on August 15th from 12pm-4pm.</h5></div>"
+}
+</script>
+</head>
+
+<body>
+	<header>
+    
+    	<h1>EScape</h1>
+    
+    	<div class="topnav" id="myTopnav">
+  <button onclick="home()" class="active">Home</button>
+  <button onclick="boxes()">Boxes</button>
+  <button onclick="contact()">Contact</button>
+  <button onclick="about()">About</button>
+</div>
+
+    
+    </header>
+<main id="main">
+
+		<img id="logo" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/111323718_118902586571977_4656653492373695672_n.jpg?_nc_cat=110&amp;_nc_sid=6e5ad9&amp;_nc_ohc=s14aWMM-_vIAX9nfmmQ&amp;_nc_ht=scontent-lga3-1.xx&amp;oh=d44a23f5e3baaddd66a14729af8f5080&amp;oe=5F52B09C" height="300px">
+<div>
+	<h3 id="news">News</h3>
+	<h5 class="subnews">There will be an opportunity to pick up your EScape box at Church of the Open Door(3191 Middle Rd, Richfield, PA 17086) on August 15th from 12pm-4pm.</h5>
+</div>
+
+</main>
+<footer>Footer Content — Header.com 2020</footer>
+</body>
+
+</html>
